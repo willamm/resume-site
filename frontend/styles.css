@@ -1,0 +1,27 @@
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle>p,h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.edu {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.edu>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
