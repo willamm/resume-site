@@ -41,8 +41,14 @@
         font-size: 15px;
     }
     
-    .active 
-    .collapsible-content {
+    .active, .collapsible:hover {
+        background-color: #ccc;
+    }
 
+    .collapsible-content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
     }
 }
